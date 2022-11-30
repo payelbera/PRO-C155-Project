@@ -8,16 +8,7 @@ AFRAME.registerComponent("game-play", {
     },
   
     isCollided: function(elementId) {
-      const element = document.querySelector(elementId);
-      element.addEventListener("collide", e => {
-        if (elementId.includes("#coin")) {          
-          console.log("coin collision");
-          
-        }
-        else if(elementId.includes("#fish")){
-          console.log("fish collision");
-        }         
-      });
+      // define the function
     }
     
   });
